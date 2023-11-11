@@ -1,8 +1,37 @@
-# Getting Started with Create React App
+# Card0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This webapp is dedicated to managing your daily responsibilities on work.
 
-## Available Scripts
+# Features
+- Login and manage all your tasks seperately.
+- Maintain and assign the task status, using drag-n-drop method.
+- Edit task card or delete it.
+- Add pdf,image,word or any other files to your card for your reference.
+
+![Screenshot 2023-11-11 151535](https://github.com/Bluetooth-stack/qurinom_assessment/assets/80689111/9335cb64-d94d-4df8-a47a-89ceeb01406d)
+
+  
+![Screenshot 2023-11-11 151604](https://github.com/Bluetooth-stack/qurinom_assessment/assets/80689111/0d12b3fa-4c29-47ca-a919-3302a7c3f057)
+
+
+![Screenshot 2023-11-11 151622](https://github.com/Bluetooth-stack/qurinom_assessment/assets/80689111/4ee4fedf-18ab-478f-9f3b-103de7ae9a77)
+
+
+![Screenshot 2023-11-11 151656](https://github.com/Bluetooth-stack/qurinom_assessment/assets/80689111/b7bdcc83-28d3-4f00-a5cc-b39ab4f36673)
+
+
+![Screenshot 2023-11-11 151732](https://github.com/Bluetooth-stack/qurinom_assessment/assets/80689111/50ef32bd-2c07-4097-801d-37b1b657d4af)
+
+
+
+![Screenshot 2023-11-11 151914](https://github.com/Bluetooth-stack/qurinom_assessment/assets/80689111/6536a30d-83ec-4017-ac5d-3f1fab044785)
+
+
+## Run on your local system
+
+You can clone this repository on to your local system and install all the packages requires using the command 'npm install'
+
+### Bellow are available Scripts after you finish installing all requires packages
 
 In the project directory, you can run:
 
@@ -39,29 +68,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
