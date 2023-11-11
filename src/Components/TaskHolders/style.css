@@ -1,0 +1,28 @@
+.holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.6rem;
+    min-width: 260px;
+    min-height: 340px;
+}
+
+.holder p{
+    font-size: 0.88rem;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.holder h3{
+    font-family: 'Agbalumo', cursive;
+    color: rgb(252, 65, 65);
+}
+
+.completed h3{
+    color: rgb(2, 173, 2);
+}
+
+.ongoing h3{
+    color: rgb(255, 177, 32);
+}

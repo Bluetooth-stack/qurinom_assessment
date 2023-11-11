@@ -1,0 +1,50 @@
+.card{
+    position: relative;
+    min-height: 104px;
+    width: 240px;
+    /* height: 104px; */
+    padding: 0.5rem 0.8rem;
+    overflow-y: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 4px grey;
+    transition: 0.4s ease-in-out;
+}
+
+.card:hover{
+    cursor: grabbing;
+    transform: scale(0.97);
+    box-shadow: 0 0 8px grey;
+}
+
+.card h4{
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.28rem 0;
+}
+
+.card p{
+    font-weight: 400 !important;
+    font-style: normal !important;
+    margin: 0.5rem 0 0 0 ;
+}
+
+.card h4 span .icn{
+    transform: scale(0.8);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.card h4 span .edit{
+    color: green;
+}
+.card h4 span .dlt{
+    color: rgb(226, 38, 38);
+}
+
+.card h4 span .icn:hover{
+    transform: scale(1);
+}

@@ -1,0 +1,26 @@
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1rem;
+    margin-top: 2rem;
+}
+
+.character{
+    height: 38%;
+    width: 38%;
+    filter: drop-shadow(0 0 5px black);
+}
+
+.home-container p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 2.5rem;
+}

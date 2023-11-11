@@ -1,0 +1,29 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: black;
+    /* box-shadow: 0 0 8px black; */
+    padding: 0.5rem 1rem;
+}
+
+.header-container h1{
+    font-family: 'Agbalumo', cursive;
+}
+
+.but{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.4rem;
+    width: 16.8%;
+}
+
+.but button{
+    width: 6rem;
+}
+
+.out{
+    justify-content: flex-end;
+}

@@ -1,0 +1,105 @@
+.inputHolder {
+  position: relative;
+  width: 25%;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.forgot{
+  width: 50%;
+}
+
+.inputHolder span {
+  position: absolute;
+  right: 0.3rem;
+  top: 0.38rem;
+}
+
+.eye {
+  transform: scale(0.8);
+  cursor: pointer;
+  color: grey;
+}
+
+.inputHolder .input {
+  outline: none;
+  border: none;
+  box-shadow: 0 0 6px grey;
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: 0.4s ease-out;
+}
+
+.inputHolder .bottom {
+  display: inline-block;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  bottom: 0.01rem;
+  left: 0;
+  transition: 0.4s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+.inputHolder .input::placeholder {
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 0.11rem;
+  transition: 0.2s ease-out;
+}
+
+.input:focus::placeholder,
+.input:valid::placeholder {
+  visibility: hidden;
+}
+
+.input:focus ~ .bottom {
+  transform: scaleX(1);
+}
+
+textarea {
+  resize: none;
+}
+
+.fileInputHolder {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+  color: rgb(37, 37, 37);
+}
+
+.labelDesign {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted rgb(63, 61, 61);
+  box-shadow: 0 0 4px grey;
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+  color: gray;
+}
+
+.editIcon {
+  transform: scale(0.75);
+  color: grey;
+}

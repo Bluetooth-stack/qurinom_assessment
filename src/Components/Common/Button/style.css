@@ -1,0 +1,45 @@
+.btn {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  width: 160px;
+  /* background-color: darkgreen; */
+  font-family: "Roboto", sans-serif;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+.btn:hover {
+  box-shadow: 0 0 8px rgb(0, 0, 0);
+}
+
+.stretchedBtn {
+  width: 25%;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  overflow: hidden;
+  width: 35px !important;
+  transition: 0.4s ease-in-out;
+}
+
+.logout span {
+  display: none;
+}
+
+.logout:hover span {
+  display: inline-block;
+}
+.logout:hover {
+  width: 100px !important;
+}
+
+.logoutIcon {
+  transform: scale(0.8);
+}
